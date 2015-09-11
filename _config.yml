@@ -2,7 +2,7 @@
 title:       Renata Brandt
 email:       renatabrandt@gmail.com
 author:      Renata Brandt
-description: "vamos ver se vai"
+description: "Renata Brandt personal website"
 baseurl:     ""
 url:         "http://renatabrandt.github.io"
 date_format: "%b %-d, %Y"
@@ -15,7 +15,7 @@ google_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
+show_social_icons:    true
 ajaxify_contact_form: false
 
 # Disqus post comments
@@ -23,7 +23,7 @@ ajaxify_contact_form: false
 disqus_shortname:
 
 # Social icons
-github_username:
+github_username: renatabrandt
 bitbucket_username:
 stackoverflow_id:
 twitter_username: renatabrandt
@@ -36,11 +36,11 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: false
+share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false
