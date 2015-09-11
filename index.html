@@ -2,7 +2,8 @@
 layout: default
 ---
 <p>
-  <a href="https://flic.kr/p/rR5ME4"><img src="https://flic.kr/p/rR5ME4" alt="Eurolophosaurus nanuzae"></a><br>
+  <a data-flickr-embed="true"  href="https://www.flickr.com/photos/rbrandt/16964361539/in/album-72157626504696966/" title="IMG_1445"><img src="https://farm9.staticflickr.com/8709/16964361539_35a26669d1_k.jpg" width="2048" height="1365" alt="IMG_1445"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  
 </p>
 <ul>
   <li><a href="./pubs/">Publications</a></li>
@@ -11,21 +12,6 @@ layout: default
 <hr>
 
 <div class="home">
-<h3> Posts </h3>
-  <div class="posts">
-    {% for post in paginator.posts %}
-      <div class="post">
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
-        <p class="post-summary">
-          {% if post.summary %}
-            {{ post.summary }}
-          {% else %}
-            {{ post.excerpt }}
-          {% endif %}
-        </p>
-      </div>
-    {% endfor %}
   </div>
 
   {% include pagination.html %}
